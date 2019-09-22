@@ -1,0 +1,55 @@
+ /*about me*/ 
+ 
+body {
+    background: url("../assets/images/background.png")no-repeat center center fixed;
+    background-size: cover;
+}
+
+span.mdl-layout-title {
+    font-family: 'Homemade Apple', cursive;
+    padding: 30px;
+    text-align: center;
+    color: purple; 
+    font-size: 33px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#main-container {
+    padding-top: 150px;
+    min-height: calc(100vh - 70px);
+}
+
+.main-section {
+    float: right;
+    width: 100%;
+    max-width: 960px;
+    padding: 60px;
+    margin: 0 0 40px;
+    border-style: hidden;
+    
+}
+
+img {
+      float: right;
+      border-radius: 70%;
+}
+
+.lead {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+a.mdl-navigation__link{
+    font: 2em sans-serif;
+}
+
+
+
+
+footer {
+    font-weight: bold;
+    float: right;
+    font-size: 7px;
+}
