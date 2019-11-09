@@ -1,24 +1,24 @@
  /*about me*/ 
  
 body {
-    background: url("../assets/images/590057-computer-Macintosh-white-minimalism-748x472.jpg")no-repeat center center fixed;
+    background: url("../assets/images/background.jpg")no-repeat center center fixed;
     background-size: cover;
 }
 
 .nav-link.disabled{
-    font-family: 'Satisfy', cursive;
+    font-family: 'Cedarville Cursive', cursive;
     padding: 30px;
     text-align: center;
-    color: pink; 
-    font-size: 33px;
+    color: #feff98;
+    font-size: 40px;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
+
 
 a {
     font-family: 'Satisfy', cursive;
     font-size: 30px;
     color: black;
-
 }
 
 #main-container {
@@ -33,23 +33,48 @@ a {
     padding: 60px;
     margin: 0 0 40px;
     border-style: hidden;
-    
 }
 
 h1 {
     font-size: 130px;
     text-align: right;
-    
 }
 
 .lead {
     font-weight: bold;
     font-size: 20px;
-
 }
 
 footer {
     font-weight: bold;
     float: right;
     font-size: 7px;
+}
+
+/*contact me*/
+
+h2 {
+    font-family: 'Satisfy', cursive;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.wrap-contact100 {
+    
+    background: #fff;
+    border-radius: 2px;
+    padding: 5px 95px 68px;
+}
+
+
+.form-group input {
+    border-radius: 5px;
+    width: 320px;
+}
+
+.form-group textarea{
+    border-radius: 5px;
 }
