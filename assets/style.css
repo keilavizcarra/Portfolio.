@@ -1,18 +1,24 @@
  /*about me*/ 
  
 body {
-    background: url("../assets/images/background.png")no-repeat center center fixed;
+    background: url("../assets/images/590057-computer-Macintosh-white-minimalism-748x472.jpg")no-repeat center center fixed;
     background-size: cover;
 }
 
-span.mdl-layout-title {
-    font-family: 'Homemade Apple', cursive;
+.nav-link.disabled{
+    font-family: 'Satisfy', cursive;
     padding: 30px;
     text-align: center;
-    color: purple; 
+    color: pink; 
     font-size: 33px;
-    font-weight: bold;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+a {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color: black;
+
 }
 
 #main-container {
@@ -30,9 +36,10 @@ span.mdl-layout-title {
     
 }
 
-img {
-      float: right;
-      border-radius: 70%;
+h1 {
+    font-size: 130px;
+    text-align: right;
+    
 }
 
 .lead {
@@ -40,13 +47,6 @@ img {
     font-size: 20px;
 
 }
-
-a.mdl-navigation__link{
-    font: 2em sans-serif;
-}
-
-
-
 
 footer {
     font-weight: bold;
